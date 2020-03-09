@@ -1816,6 +1816,23 @@ input, select, textarea {
 			padding: 0;
 		}
 
+/* imgbox */
+
+    .imgbox {
+		margin: 0 !important;
+		padding: 0 !important;
+		display: flex !important;
+		width: 100%;
+		overflow: hidden;
+		justify-content: center;
+	}
+
+	.centerfit {
+		max-width: 100%;
+		max-height: 100vh;
+		margin: auto;
+	}
+
 /* Button */
 
 	input[type="submit"],
